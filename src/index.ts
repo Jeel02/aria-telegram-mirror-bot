@@ -967,7 +967,7 @@ function driveUploadCompleteCallback(err: string, gid: string, url: string, file
     console.log(`${gid}: Uploaded `);
     if (fileSize) {
       var fileSizeStr = downloadUtils.formatSize(fileSize);
-      finalMessage = `<b>GDrive Link</b>: <a href="${url}">${fileName}</a> \n\n<b>Size:</b><i>${fileSizeStr}</i>`;
+      finalMessage = `<b>GDrive Link</b>: <a href="${url}">${fileName}</a> \n\n<b>Size:[${fileSizeStr}]`;
     } else {
       finalMessage = `<b>GDrive Link</b>: <a href='${url}'>${fileName}</a>`;
     }
