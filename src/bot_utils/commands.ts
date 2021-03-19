@@ -1,11 +1,11 @@
 export const commands = {
     START:          'start',
-    MIRRORTAR:      'mirrorTar|mt',
-    MIRROR:         'mirror|m',
-    MIRROR_STATUS:  'mirrorStatus|ms',
+    MIRRORTAR:      'mt',
+    MIRROR:         'm',
+    MIRROR_STATUS:  'status|ms',
     LIST:           'list|l',
     GET_FOLDER:     'getFolder|gf',
-    CANCEL_MIRROR:  'cancelMirror|cm',
+    CANCEL_MIRROR:  'cancel|cm',
     CANCEL_ALL:     'cancelAll|ca',
     STATS:          'stats',
     GET_LINK:       'getLink|gl',
@@ -13,12 +13,12 @@ export const commands = {
     ID:             'id',
     MF:             'mf',
     TAR:            'tar|t',
-    UNZIP_MIRROR:   'unzipMirror|um',
+    UNZIP_MIRROR:   'um',
     COUT:           'count|cnt',
     HELP:           'help|h',
     AUTHORIZE:      'authorize|a',
     UNAUTHORIZE:    'unauthorize|ua',
-    RESTART:        'restart|r'
+    RESTART:        'r'
 };
 
 export const commandsAfter: any = {
