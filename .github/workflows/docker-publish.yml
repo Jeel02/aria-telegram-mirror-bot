@@ -26,7 +26,7 @@ jobs:
         run: echo "Author mismatch existing..." && exit 1
 
       - name: Login to ghcr.io registry
-        run: {{GIT_TOKEN}} | docker login ghcr.io -u USERNAME --password-stdin
+        run: ${{GIT_TOKEN}} | docker login ghcr.io -u USERNAME --password-stdin
 
       - name: Build and Push image
         run: |
